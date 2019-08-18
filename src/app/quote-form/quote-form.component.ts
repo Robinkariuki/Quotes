@@ -13,7 +13,7 @@ export class QuoteFormComponent implements OnInit {
   quoteDate: Date =new Date();
   theQuote:any
 
-  submitQuote( ){
+  submitQuote( ) {
     this.theQuote = new Quote(this.quoteName, this.quoteMovie, this.quoteDate)
     this. quoteMovie = ''
     this.quoteName = ''
