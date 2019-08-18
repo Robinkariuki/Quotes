@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="jumbotron">
+    <h2 class="text-center">MOVIE QUOTES</h2>
+
+    
+    <div>
+      <app-quote-form (emitQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+    <br>
+
+    <div class="row">
+      <div class="col-12">
+
+        
+        <div *ngFor='let quote of quotes; let i = index'>
+          <app-quote-details [quote]="quote" [quote]='quote' (isComplete) = 'deleteQuote($event,i)' ></app-quote-details>
+        </div>
+      </div>
+
+      
+      </div>
+    </div>
+  </div>
