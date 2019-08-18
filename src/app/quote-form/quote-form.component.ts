@@ -8,7 +8,7 @@ import { Quote } from "../quote";
 })
 export class QuoteFormComponent implements OnInit {
   @Output() emitQuote = new EventEmitter()
-  quoteMovie:string
+  quoteMovie: string
   quoteName:string
   quoteDate: Date =new Date();
   theQuote:any
