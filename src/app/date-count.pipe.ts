@@ -13,7 +13,7 @@ export class DateCountPipe implements PipeTransform {
     const secondsInAMinute = 3600;
 
     var dateDifferenceSeconds = dateDifference * 0.001;
- 
+
     var dateCounter = dateDifferenceSeconds / secondsInAMinute;
 
     if (dateCounter >= 1) {
@@ -22,7 +22,7 @@ export class DateCountPipe implements PipeTransform {
       return dateCounter;
     }
   }
- 
+
  }
 
-  
+
