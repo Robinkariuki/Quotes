@@ -2,11 +2,11 @@
 
 #### version one.
 
-#### By **Janice Mukenyi  Muia**
+#### By **Robin kariuki**
 
 ## Description
 
-Welcome to Lyrical quotes  where you post your favourite quotes and get a chance to like and dislike othe lyrical quotes.
+A web application which you enter movie quotes and also author name.
 
 ## BDD
 
