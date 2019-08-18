@@ -12,6 +12,8 @@ A web application which you enter movie quotes and also author name.
 
 -   internet connection
 -   Device that can acces the internet
+## Live site
+https://robinkariuki.github.io/Quotes/
 
 
 ## Technologies Used
