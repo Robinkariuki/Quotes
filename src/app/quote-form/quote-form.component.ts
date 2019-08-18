@@ -9,9 +9,9 @@ import { Quote } from "../quote";
 export class QuoteFormComponent implements OnInit {
   @Output() emitQuote = new EventEmitter()
   quoteMovie: string
-  quoteName:string
-  quoteDate: Date =new Date();
-  theQuote:any
+  quoteName: string
+  quoteDate: Date = new Date();
+  theQuote: any
 
   submitQuote( ) {
     this.theQuote = new Quote(this.quoteName, this.quoteMovie, this.quoteDate)
